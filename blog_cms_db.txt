@@ -1,0 +1,18 @@
+ADMIN
+admin_id, name, family, pass
+
+POST
+post_id, admin_id, category_id, date, title, content, 
+
+CATEGORY
+category_id, name, 
+
+COMMENT
+coment_id, post_id, content, comment_date, name,
+
+....
+USER
+user_id, name, family, pass, date_reg, email,
+
+TAG
+tag_id, 
