@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+body{
+	margin-top: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+#header{
+	margin-left: 0px;
+	background: url("../images/hat.png") repeat-x;
+	height: 108px;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+/* Меню*/
+#nav{
+	width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+#menu {
+	font-size: 18px;
+	font-family: Helvetica;
+	list-style: none;
+	float: left;
+	}	
+#menu li{
+	padding-top: 18px;
+	padding-left: 4px;
+    float: left;
+}
+#menu li a{
+	text-decoration: none;
+	color: #94A1A8;
+	padding: 6px 16px 6px 16px;
+    /*display: block;
+    margin-left: 0px;*/
+}
+#menu li a:hover {
+	color: #000;
+	}
+a:active, a:focus { /*Премахва пунктирната линия на границата на бутоните при мозила и хром.(при връщане назад)*/
+	outline: 0;
+	}
+#head:after {
+    content:"";
+	clear:both;
+	display: block;
+}
